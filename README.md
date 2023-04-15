@@ -1,5 +1,5 @@
 # Web-Crawler
-This repository contains a web crawler implemented in Node.js with Jest as the testing framework. The web crawler is designed to crawl and scrape data from websites, allowing you to extract information from web pages and store it for further processing or analysis.
+
 you can also implement the project by :-
 
 Clone the repository and install dependencies using npm or yarn.
