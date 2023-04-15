@@ -1,5 +1,5 @@
 const { html } = require('parse5')
-const {NormalizaURL,getURLsFromHTML} = require('./crawl.js')
+const {NormalizaURL,getURLsFromHTML} = require('./UrlWorks.js')
 const {test,expect} = require('@jest/globals')
 test('normalizeURl strip HTTPS Protocol',()=>{
     const input='https://blog.boot.dev/path'
