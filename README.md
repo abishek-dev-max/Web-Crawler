@@ -16,4 +16,4 @@ please open an issue or submit a pull request. Please follow the contribution gu
 
 ## CLI
 
-npm start <website url>
+npm start {website url]
