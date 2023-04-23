@@ -1,5 +1,5 @@
-const {sortPages} = require('./report.js')
-const {test,expect} = require('@jest/globals')
+import { sortPages } from './report.js'
+import { test, expect } from '@jest/globals'
 test('sortPages 2 pages',()=>{
     const input={ 'https://wagslane.dev/path':1,
         'https://wagslane.dev':3}

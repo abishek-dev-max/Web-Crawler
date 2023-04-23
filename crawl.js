@@ -1,5 +1,8 @@
-const { NormalizaURL,getURLsFromHTML } =require('./UrlWorks.js')
-async function crawlPage(baseURL,currentURL,pages) {
+// import fetch from 'node-fetch';
+
+import { NormalizaURL, getURLsFromHTML } from './UrlWorks.js';
+import  fetch  from "node-fetch";
+export async function crawlPage(baseURL,currentURL,pages) {
     
     const baseURLobj=new URL(baseURL)
     const currentURLobj=new URL(currentURL)
@@ -42,6 +45,6 @@ async function crawlPage(baseURL,currentURL,pages) {
 
 
 
-module.exports = { 
+export default { 
     crawlPage
 }

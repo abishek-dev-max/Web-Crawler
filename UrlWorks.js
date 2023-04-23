@@ -1,6 +1,6 @@
-const { JSDOM } = require('jsdom')
+import { JSDOM } from 'jsdom'
 
-function getURLsFromHTML(htmlBody, baseURL) {
+export function getURLsFromHTML(htmlBody, baseURL) {
     const urls = []
     const dom = new JSDOM(htmlBody)
     const linkElements = dom.window.document.querySelectorAll('a')
@@ -28,7 +28,7 @@ function getURLsFromHTML(htmlBody, baseURL) {
     return urls
 
 }
-
+export 
 function NormalizaURL(urlString) {
     const urlObject = new URL(urlString);
     const hostpath = `${urlObject.hostname}${urlObject.pathname}`
@@ -37,7 +37,7 @@ function NormalizaURL(urlString) {
     }
     return hostpath
 }
-module.exports={
+export default{
     NormalizaURL,
     getURLsFromHTML
 }

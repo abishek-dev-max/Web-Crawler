@@ -1,4 +1,4 @@
-function PrintReport(pages) {
+export function PrintReport(pages) {
     console.log("============")
     console.log("REPORT")
     console.log("============")
@@ -22,7 +22,7 @@ function sortPages(pages) {
     })
     return pagesArr
 }
-module.exports ={
+export default{
     sortPages,
     PrintReport
 }

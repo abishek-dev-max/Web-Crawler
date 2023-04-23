@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "web-crawler",
   "version": "1.0.0",
   "description": "",
@@ -11,6 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "jest": "^29.5.0",
-    "jsdom": "^21.1.1"
+    "jsdom": "^21.1.1",
+    "latest": "^0.2.0",
+    "node-fetch": "^3.3.1"
   }
 }
