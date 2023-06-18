@@ -9,11 +9,6 @@ Start the crawler using the provided command-line interface (CLI) or by integrat
 Analyze the crawled data and process it as needed for your specific use case.
 
 
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions for improvement, 
-please open an issue or submit a pull request. Please follow the contribution guidelines outlined in the repository.
-
 ## CLI
 
 npm start {website url}
